@@ -1,0 +1,275 @@
+.au {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #24272E;
+}
+
+.au-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-no {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    color: #31343B;
+    line-height: 165px;
+    letter-spacing: -0.3cm;
+    position: relative;
+    right: 8px;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #EB7D47;
+}
+
+.au-h3 {
+    position: relative;
+    bottom: 106px;
+}
+
+h1 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.au-h1 {
+    position: relative;
+    bottom: 115px;
+}
+
+.line {
+    width: 70px;
+    height: 0px;
+    border: 1.5px solid;
+    border-image-source: linear-gradient(90deg, #DD6023 0%, #FFA236 152.5%);
+    border-image-slice: 1;
+}
+
+.line-pos {
+    position: relative;
+    bottom: 95px;
+}
+
+.p1 {
+    text-align: justify;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    bottom: 60px;
+    position: relative;
+    width: 300px;
+    color: #EB7D47;
+}
+
+.p2 {
+    text-align: justify;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    bottom: 40px;
+    position: relative;
+    width: 300px;
+}
+
+/* Gallery */
+
+.carousel {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+}
+
+.slide {
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-hidden {
+    display: none ;
+}
+
+.arrow {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    color: white;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 1rem;
+}
+
+.arrow-right {
+    right: 1rem;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+}
+
+.thumbnail {
+    background-color: #24272E;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.thumbnail-inactive {
+    opacity: 0.6;
+}
+
+.t-img {
+    height: 80px;
+    width: 90px;
+    padding: 0px 5px;
+    border-radius: 10%;
+}
+
+/* Large tablets and small desktops CSS */
+
+@media only screen and (min-width: 992px) {
+    #aboutus {
+        width: 100%;
+        position: absolute;
+        top: 810px;
+    }
+
+    .au {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 180px;
+    }
+
+    .au-desc {
+        padding-left: 100px;
+    }
+
+    .gallery {
+        padding-left: 200px;
+    }
+
+    .carousel {
+        height: 220px;
+        width: 400px;
+    }
+
+    .thumbnails {
+        height: 160px;
+        width: 400px;
+    }
+
+    .t-img {
+        height: 110px;
+        width: 120px;
+        padding: 0px 10px;
+    }
+}
+
+/* Large desktop CSS */
+
+@media only screen and (min-width: 1850px) {
+    #aboutus {
+        top: 1087px;
+        left: 0px;
+    }
+
+    .au {
+        padding-top: 380px;
+    }
+
+    .au-desc {
+        align-items: flex-start;
+        padding-left: 180px;
+    }
+
+    .sec-no {
+        font-size: 135px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .au-h3 {
+        right: 30px;
+        bottom: 120px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .au-h1 {
+        right: 65px;
+        bottom: 130px;
+    }
+
+    .line {
+        width: 80px;
+        border: 2px solid;
+        border-image-source: linear-gradient(90deg, #DD6023 0%, #FFA236 152.5%);
+        border-image-slice: 1;
+    }
+
+    .p1, .p2 {
+        width: 500px;
+        font-size: 18px;
+        right: 60px;
+    }
+
+    .gallery {
+        padding-left: 180px;
+    }
+
+    .carousel {
+        height: 400px;
+        width: 600px;
+    }
+
+    .thumbnails {
+        height: 160px;
+        width: 600px;
+    }
+
+    .t-img {
+        height: 140px;
+        width: 180px;
+        padding: 0px 15px;
+    }
+
+    .arrow {
+        width: 2rem;
+        height: 2rem;
+    }
+}

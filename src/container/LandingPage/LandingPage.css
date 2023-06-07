@@ -1,0 +1,277 @@
+#landingpage {
+    background-color: #24272E;
+}
+
+.desktop {
+    display: none;
+}
+
+.sm-hero {
+    display: none;
+}
+
+.hero-sec {
+    display: none;
+}
+
+.mobile {
+    height: auto;
+    width: 100%;
+    opacity: 0.4;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.lp-header {
+    position: absolute;
+    top: 70px;
+    left: 35px;
+    width: 280px;
+    text-align: start;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.lp-header-desc {
+    position: absolute;
+    top: 350px;
+    left: 35px;
+    width: 320px;
+    text-align: start;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    background: linear-gradient(90deg, #DD6023 -2.16%, #FFA236 97.03%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn1 {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #DD6023 0%, #FFA236 166.09%);
+    position: absolute;
+    left: 35px;
+    top: 460px;
+}
+
+.btn2 {
+    border: 1px solid #EB7D47;
+    border-radius: 10px;
+    background: transparent;
+    padding: 10px 20px;
+    position: absolute;
+    left: 200px;
+    top: 460px;
+}
+
+.btn1>a,
+.btn2>a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.icon {
+    padding-right: 10px;
+    color: #EB7D47;
+    width: 20px;
+    height: 15px;
+}
+
+/* Tablet CSS */
+
+@media only screen and (min-width: 600px) {
+    .lp-header {
+        position: absolute;
+        top: 110px;
+        left: 75px;
+        width: 510px;
+        font-size: 65px;
+    }
+
+    .lp-header-desc {
+        position: absolute;
+        top: 425px;
+        left: 75px;
+        width: 450px;
+        font-size: 26px;
+    }
+
+    .btn1 {
+        position: absolute;
+        left: 75px;
+        top: 580px;
+    }
+
+    .btn2 {
+        position: absolute;
+        left: 325px;
+        top: 580px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 25px;
+    }
+
+    .btn1>a,
+    .btn2>a {
+        font-size: 20px;
+    }
+}
+
+/* Large tablets and small desktops CSS */
+
+@media only screen and (min-width: 992px) {
+    #landingpage {
+        position: relative;
+        z-index: 1;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+        height: auto;
+        width: 95%;
+        position: absolute;
+        left: -375px;
+    }
+
+    .sm-hero {
+        display: block;
+        position: absolute;
+        right: 0px;
+        width: 60%;
+    }
+
+    .lp-header {
+        position: absolute;
+        top: 100px;
+        left: auto;
+        right: 1.5%;
+        font-size: 60px;
+        width: 560px;
+    }
+
+    .lp-header-desc {
+        position: absolute;
+        top: 380px;
+        left: auto;
+        right: 111px;
+        font-size: 20px;
+    }
+
+    .btn1 {
+        position: absolute;
+        top: 470px;
+        left: auto;
+        right: 390px;
+    }
+
+    .btn2 {
+        position: absolute;
+        top: 470px;
+        left: auto;
+        right: 170px;
+    }
+
+    .icon {
+        width: 20px;
+        height: 16px;
+    }
+
+    .btn1>a,
+    .btn2>a {
+        font-size: 14px;
+    }
+}
+
+/* Large desktop CSS */
+
+@media only screen and (min-width: 1850px) {
+    #landingpage {
+        height: 1087px;
+        position: inherit;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .sm-hero {
+        display: block;
+        position: absolute;
+        width: 58%;
+        z-index: 1;
+    }
+
+    .desktop {
+        display: block;
+        position: absolute;
+        left: -440px;
+        height: auto;
+        width: 85%;
+    }
+
+    .lp-header {
+        position: absolute;
+        z-index: 1;
+        top: 210px;
+        left: 1020px;
+        width: 850px;
+        font-size: 100px;
+    }
+
+    .lp-header-desc {
+        position: absolute;
+        z-index: 1;
+        top: 680px;
+        left: 1020px;
+        width: 680px;
+        font-size: 30px;
+    }
+
+    .btn1 {
+        position: absolute;
+        z-index: 1;
+        left: 1020px;
+        top: 810px;
+        right: auto;
+    }
+
+    .btn2 {
+        position: absolute;
+        z-index: 1;
+        left: 1310px;
+        top: 808px;
+        right: auto;
+        border-color: transparent;
+    }
+
+    .icon {
+        width: 35px;
+        height: 30px;
+    }
+
+    .btn1>a,
+    .btn2>a {
+        font-size: 24px;
+    }
+
+    .btn2:hover {
+        border-color: #EB7D47;
+    }
+}

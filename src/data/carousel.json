@@ -1,0 +1,16 @@
+{
+    "slides": [
+        {
+            "src": "src/assets/bg-home-mobile.jpeg",
+            "alt": "Image 1"
+        },
+        {
+            "src": "src/assets/bg-home.png",
+            "alt": "Image 2"
+        },
+        {
+            "src": "src/assets/bmi-bg.png",
+            "alt": "Image 3"
+        }
+    ]
+}
