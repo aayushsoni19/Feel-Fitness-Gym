@@ -3,13 +3,14 @@
 }
 
 .mobile-navItem {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: white;
-  position: relative;
-  bottom: 500px;
+  position: absolute;
+  bottom: 150px;
   z-index: 1;
 }
 

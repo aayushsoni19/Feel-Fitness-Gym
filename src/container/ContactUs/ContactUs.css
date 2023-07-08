@@ -38,7 +38,7 @@
     #contactus {
         width: 100%;
         position: absolute;
-        top: 3225px;
+        top: 3925px;
     }
 
     .contact-bg {
@@ -73,6 +73,6 @@
 @media only screen and (min-width: 1850px) {
     #contactus {
         left: 0;
-        top: 4375px;
+        top: 5595px;
     }
 }

@@ -57,7 +57,7 @@
     #ourprograms {
         width: 100%;
         position: absolute;
-        top: 2035px;
+        top: 2735px;
     }
 
     .programs {
@@ -76,7 +76,7 @@
 @media only screen and (min-width: 1850px) {
     #ourprograms {
         left: 0;
-        top: 3060px;
+        top: 4275px;
     }
 
     .op-h1 {
