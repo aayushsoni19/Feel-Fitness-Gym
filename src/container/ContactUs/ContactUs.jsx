@@ -14,7 +14,7 @@ const ContactUs = () => {
                 </div>
             </div>
 
-            <Footer />
+            <footer></footer>
         </>
     )
 }
