@@ -1,38 +1,98 @@
- .navItem {
+.navItem {
+  display: none;
+}
+
+.mobile-navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  bottom: 500px;
+  z-index: 1;
+}
+
+.mobile-navItem a {
+  font-size: 20px;
+  color: #31343B;
+  padding: 10px;
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+.hamburger-menu {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.hamburger {
+  height: 35px;
+  width: 35px;
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  .hamburger-menu {
+    display: none;
+  }
+  
+  .navItem {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: end;
     align-items: center;
-  }
-  
-  .navItem .active ::after {
-    color: #f9ab25;
-    content: "";
     position: absolute;
-    background-color: #f9ab25;
-    height: 3px;
-    left: 0;
-    bottom: -10px;
-    width: 0;
-    transition: 0.3s;
-    width: 100%;
+    z-index: 1;
+    right: 10px;
   }
-  
+
   .navItem a {
+    font-size: 20px;
     color: white;
     padding: 10px;
     text-decoration: none;
     position: relative;
-    margin: 2rem;
+    margin: 1.5rem;
     transition: 0.3s;
   }
-  
-  .navItem a::after {
-    
+
+  .nav-line {
+    width: 660px;
+    height: 0px;
+    border: 1.5px solid;
+    border-image-source: linear-gradient(90deg, #DD6023 0%, #FFA236 152.5%);
+    border-image-slice: 1;
+    position: relative;
+    top: 80px;
+    left: 578px;
+    z-index: 1;
   }
 
-  
   .navItem a:hover {
-    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #DD6023;
+    color: #31343B;
+    border-radius: 10%;
   }
-  
+}
+
+@media only screen and (min-width: 1850px) {
+  .navItem {
+    right: 100px;
+  }
+
+  .navItem a {
+    font-size: 24px;
+    margin: 2rem;
+  }
+
+  .nav-line {
+    width: 850px;
+    top: 120px;
+    left: 620px;
+  }
+}

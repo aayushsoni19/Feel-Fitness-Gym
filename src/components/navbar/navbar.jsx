@@ -1,28 +1,39 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useState } from 'react'
 import "./Navbar.css";
-import AboutUs from '../../container/AboutUs/AboutUs';
+import { GiHamburgerMenu } from "react-icons/gi"
+import { HashLink as NavLink } from 'react-router-hash-link';
 
 const Navbar = () => {
+    const [hamburger, setHamburger] = useState(false);
+
     return (
+        <> 
+            <div className={ hamburger ? "mobile-navItem navItem" : "navItem"}>
+                <NavLink to="#landingpage">
+                    Home
+                </NavLink>
+                <NavLink to="#aboutus">
+                    About Us
+                </NavLink>
+                <NavLink to="#ourprograms">
+                    Our Programs
+                </NavLink>
+                <NavLink to="#gallery">
+                    Gallery
+                </NavLink>
+                <NavLink to="#contactus">
+                    Contact
+                </NavLink>
+            </div>
 
-        <div className="navItem">
-            <NavLink exact activeClassName="active" className="homepage" >Home</NavLink>
-            <NavLink exact activeClassName='active' to={"#aboutus"}>
-               About Us
-            </NavLink>
-            <NavLink exact activeClassName='active' >
-                Our Programmes
-            </NavLink>
-            <NavLink exact activeClassName='active'>
-                Gallery
-            </NavLink>
-            <NavLink exact activeClassName='active' >
-                Contact
-            </NavLink>
+            <div className="nav-line"></div>
 
-        </div>
-
+            <div className="hamburger-menu">
+                <a href="" onClick={() => setHamburger(!hamburger)}>
+                    <GiHamburgerMenu className="hamburger"/>
+                </a>
+            </div>
+        </>
     )
 }
 
