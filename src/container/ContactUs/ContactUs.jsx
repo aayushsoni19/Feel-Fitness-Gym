@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ContactUs.css"
+import Footer from '../../components/footer/footer'
 
 const ContactUs = () => {
     return (
@@ -12,6 +13,8 @@ const ContactUs = () => {
                     <p>Call us today to get your personalised workout and meal plan. Visit us as well to ensure the quality of equipments.</p>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

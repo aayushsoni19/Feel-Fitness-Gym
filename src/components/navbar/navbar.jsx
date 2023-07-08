@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./Navbar.css";
+import "./Navbar.css"
 import { GiHamburgerMenu } from "react-icons/gi"
 import { HashLink as NavLink } from 'react-router-hash-link';
 
