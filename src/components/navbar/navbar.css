@@ -1,0 +1,38 @@
+ .navItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navItem .active ::after {
+    color: #f9ab25;
+    content: "";
+    position: absolute;
+    background-color: #f9ab25;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .navItem a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    margin: 2rem;
+    transition: 0.3s;
+  }
+  
+  .navItem a::after {
+    
+  }
+
+  
+  .navItem a:hover {
+    transform: scale(1.2);
+  }
+  

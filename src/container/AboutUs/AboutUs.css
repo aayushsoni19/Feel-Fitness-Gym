@@ -58,7 +58,7 @@ h1 {
     border-image-slice: 1;
 }
 
-.line-pos {
+.au-line-pos {
     position: relative;
     bottom: 95px;
 }
@@ -202,6 +202,8 @@ h1 {
     #aboutus {
         top: 1087px;
         left: 0px;
+        padding-bottom: 100px;
+        background-color: #24272E;
     }
 
     .au {

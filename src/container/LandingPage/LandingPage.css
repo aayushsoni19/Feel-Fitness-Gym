@@ -2,6 +2,10 @@
     background-color: #24272E;
 }
 
+.navbar {
+    display: none;
+}
+
 .desktop {
     display: none;
 }

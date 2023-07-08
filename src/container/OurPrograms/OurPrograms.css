@@ -1,0 +1,97 @@
+#ourprograms {
+    background-color: #24272E;
+}
+
+.op-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.op-h3 {
+    position: relative;
+    bottom: 106px;
+}
+
+.op-h1 {
+    position: relative;
+    bottom: 115px;
+    font-size: 24px;
+}
+
+.op-line-pos {
+    position: relative;
+    bottom: 95px;
+}
+
+.programs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt,
+.rawfit,
+.weightgl {
+    width: 250px;
+    border-radius: 10%;
+    background-color: #31343B;
+    padding: 30px;
+    margin: 10px;
+}
+
+.bt>h1,
+.rawfit>h1,
+.weightgl>h1 {
+    background: linear-gradient(90deg, #DD6023 -2.16%, #FFA236 97.03%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 25px;
+}
+
+@media only screen and (min-width: 992px) {
+
+    #ourprograms {
+        width: 100%;
+        position: absolute;
+        top: 2035px;
+    }
+
+    .programs {
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+
+    .bt,
+    .rawfit,
+    .weightgl {
+        height: 250px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 1850px) {
+    #ourprograms {
+        left: 0;
+        top: 3060px;
+    }
+
+    .op-h1 {
+        font-size: 36px;
+    }
+
+    .bt,
+    .rawfit,
+    .weightgl {
+        width: 350px;
+    }
+
+    .bt>p,
+    .rawfit>p,
+    .weightgl>p {
+        font-size: 18px;
+    }
+}

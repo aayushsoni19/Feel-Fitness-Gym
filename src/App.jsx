@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Link, Route } from 'react-router-dom'
 import { slides } from './data/carousel.json'
+import { reviews } from './data/reviews.json'
 import './App.css'
 import LandingPage from './container/LandingPage/LandingPage'
 import AboutUs from './container/AboutUs/AboutUs'
@@ -18,8 +19,8 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<div>
             <LandingPage />
-            <AboutUs data={slides}/>
-            <Testimonials />
+            <AboutUs data={ slides }/>
+            <Testimonials data={ reviews }/>
             <Gallery />
             <OurPrograms />
             <Bmi />

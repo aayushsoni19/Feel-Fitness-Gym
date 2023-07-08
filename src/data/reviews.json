@@ -1,0 +1,25 @@
+{
+    "reviews" : [
+        {
+            "src" : "",
+            "alt" : "Image of client",
+            "name" : "Kunj Patel",
+            "occupation" : "TA @ Navrachna University",
+            "review" : "Great equiment with best mentoring. They helped me build muscle mass which i lacked to improve my physic and looks."
+        },
+        {
+            "src" : "",
+            "alt" : "Image of client",
+            "name" : "Aayush Soni",
+            "occupation" : "Founder of Aayush Studios",
+            "review" : "Great equiment with best mentoring. They helped me build muscle mass which i lacked to improve my physic and looks."
+        },
+        {
+            "src" : "",
+            "alt" : "Image of client",
+            "name" : "Vishesh Mistry",
+            "occupation" : "Founder of Brainded Entertainment",
+            "review" : "Great equiment with best mentoring. They helped me build muscle mass which i lacked to improve my physic and looks."
+        }
+    ]
+}

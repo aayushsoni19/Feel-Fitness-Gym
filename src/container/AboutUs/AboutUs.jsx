@@ -21,7 +21,7 @@ const AboutUs = ({ data }) => {
                         <span className="sec-no">01</span>
                         <h3><span className="au-h3">About Feel Fitness</span></h3>
                         <h1><span className="au-h1">Welcome to Us</span></h1>
-                        <div className="line line-pos"></div>
+                        <div className="line au-line-pos"></div>
                         <p className="p1">
                             The Gym was founded by Mrs. Rekha in retrospect to motivate oneself but over time, it faced various opportunities and challenges which were successfully overcome.
                         </p>

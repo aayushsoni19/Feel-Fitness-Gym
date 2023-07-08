@@ -1,0 +1,143 @@
+#bmi {
+    background-color: #1A1B20;
+    height: 580px;
+}
+
+.bmi-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bmi-h3 {
+    position: relative;
+    bottom: 106px;
+}
+
+.bmi-h1 {
+    position: relative;
+    bottom: 115px;
+    font-size: 24px;
+}
+
+.bmi-line-pos {
+    position: relative;
+    bottom: 95px;
+}
+
+.bmi-bg-img {
+    display: none;
+}
+
+.label {
+    color: #fff;
+    font-size: 18px;
+}
+
+.height-label {
+    position: relative;
+    right: 80px;
+    bottom: 50px;
+}
+
+.weight-label {
+    position: relative;
+    right: 80px;
+    bottom: 25px;
+}
+
+.age-label {
+    position: relative;
+    right: 92px;
+    bottom: 5px;
+}
+
+.placeholder {
+    background: transparent;
+    border: solid 1px #fff;
+    height: 30px;
+    width: 260px;
+}
+
+.height-placeholder {
+    position: relative;
+    right: -5px;
+    bottom: 40px;
+}
+
+.weight-placeholder {
+    position: relative;
+    right: -5px;
+    bottom: 15px;
+}
+
+.age-placeholder {
+    position: relative;
+    right: -5px;
+    bottom: -5px;
+}
+
+.s-btn {
+    height: 35px;
+    width: 120px;
+    position: relative;
+    right: 65px;
+    bottom: -20px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #DD6023 -2.16%, #FFA236 97.03%);
+}
+
+.result {
+    height: 30px;
+    width: 180px;
+    background-color: #fff;
+    position: relative;
+    left: 63px;
+    top: 30px;
+    color: #DD6023;
+}
+
+@media only screen and (min-width: 992px) {
+    #bmi {
+        width: 100%;
+        position: absolute;
+        top: 2645px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bmi-content {
+        margin: auto;
+    }
+    
+    .bmi-bg-img {
+        display: block;
+        height: 580px;
+        width: 620px;
+        object-fit: cover;
+    }
+
+    .result {
+        left: 5px;
+    }
+}
+
+@media only screen and (min-width: 1850px) {
+    #bmi {
+        width: 100%;
+        position: absolute;
+        top: 3695px;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 100px;
+    }
+
+    .bmi-bg-img {
+        height: 680px;
+        width: 950px;
+        object-fit: cover;
+    }
+}
