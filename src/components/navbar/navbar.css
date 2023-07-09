@@ -8,15 +8,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #24272E;
+  opacity: 90%;
   position: absolute;
-  bottom: 150px;
+  top: 70px;
   z-index: 1;
 }
 
 .mobile-navItem a {
   font-size: 20px;
-  color: #31343B;
+  color: white;
   padding: 10px;
   text-decoration: none;
   position: relative;
@@ -80,8 +81,6 @@
     border-radius: 10%;
   }
 }
-
-
 
 @media only screen and (min-width: 1400px) {
   .navItem {

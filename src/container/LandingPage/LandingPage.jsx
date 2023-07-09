@@ -3,6 +3,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import Navbar from '../../components/Navbar/Navbar'
+import textBackground from "../../assets/canvas.png"
 library.add(faYoutube)
 import "./LandingPage.css"
 
@@ -14,7 +15,7 @@ const LandingPage = () => {
 
                 <img className="desktop" src="https://live.staticflickr.com/65535/53033914353_e4a3318463.jpg" alt="Background Image" />
 
-                <img src="src/assets/canvas.png" alt="Text Background" className="sm-hero" />
+                <img src={textBackground} alt="Text Background" className="sm-hero" />
 
                 <Navbar />
                 

@@ -6,7 +6,7 @@ const OurPrograms = () => {
         <>
             <div id="ourprograms">
                 <div className="op-desc">
-                    <span className="sec-no">03</span>
+                    <span className="sec-no op-sec-no">03</span>
                     <h3><span className="op-h3">Our Programs</span></h3>
                     <h1><span className="op-h1">Specialy designed for you</span></h1>
                     <div className="line op-line-pos"></div>

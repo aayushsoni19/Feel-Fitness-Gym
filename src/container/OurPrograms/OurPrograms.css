@@ -77,6 +77,22 @@
     #ourprograms {
         left: 0;
     }
+
+    .op-sec-no {
+        top: 30px;
+    }
+
+    .op-h3 {
+        top: -75px;
+    }
+
+    .op-h1 {
+        bottom: 85px;
+    }
+
+    .op-line-pos {
+        bottom: 60px;
+    }
 }
 
 @media only screen and (min-width: 1400px) {

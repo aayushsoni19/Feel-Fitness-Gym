@@ -8,26 +8,27 @@ const Bmi = () => {
     const [bmi, setBmi] = useState("");
     const [msg, setMsg] = useState("Result");
 
+    const reload = () => {
+        window.location.reload()
+    }
+
     const handleCalculations = (e) => {
         e.preventDefault()
 
-        if (weight === "0" || height === "0" || weight === "" || height === "") {
+        if (weight === "0" || height === "0" || weight === "" || height === "" || height >= 300 || weight >= 300) {
             console.log("Invalid");
             alert("Please enter valid values")
         }
         else {
-            let bmiformula = (weight / (height * height) * 703);
+            let bmiformula = (weight / (height / 100) ** 2);
             setBmi(bmiformula.toFixed(2))
-        }
-
-        if (bmi > 25) {
-            setMsg("You are underweight!")
-        }
-        else if (bmi >= 25 || bmi <= 30) {
-            setMsg("You are Healthy!")
-        }
-        else {
-            setMsg("You are overweight!")
+            if(bmiformula < 18.5){
+                setMsg("You are underweight")
+            } else if (bmiformula >= 18.5 && bmiformula <= 24.9) {
+                setMsg("You are healthy")
+            } else {
+                setMsg("You are overweight")
+            }
         }
     }
 
@@ -45,18 +46,19 @@ const Bmi = () => {
                         <form onSubmit={handleCalculations}>
                             <div>
                                 <label className="label height-label">Your Height</label><br />
-                                <input className="placeholder height-placeholder" placeholder="  in cms" value={height} onChange={ (e) => setHeight(e.target.value)}/>
+                                <input type='number' className="placeholder height-placeholder" placeholder="  in cms" value={height} onChange={(e) => setHeight(e.target.value)}/>
                             </div>
                             <div>
                                 <label className="label weight-label">Your Weight</label><br />
-                                <input className="placeholder weight-placeholder" placeholder="  in kgs" value={weight} onChange={ (e) => setWeight(e.target.value)}/>
+                                <input type='number' className="placeholder weight-placeholder" placeholder="  in kgs" value={weight} onChange={(e) => setWeight(e.target.value)}/>
                             </div>
                             <div>
                                 <label className="label age-label">Your Age</label><br />
-                                <input className="placeholder age-placeholder" placeholder="  Age" value={age} onChange={ (e) => setAge(e.target.value)}/>
+                                <input type='number' className="placeholder age-placeholder" placeholder="  Age" value={age} onChange={ (e) => setAge(e.target.value)}/>
                             </div>
                             <div>
                                 <button className="s-btn" type="submit"><span>Calculate Now</span></button>
+                                <button className="r-btn" type="submit" onClick={reload}><span>Reload</span></button>
                                 <div className="result">{msg}</div>
                             </div>
                         </form>

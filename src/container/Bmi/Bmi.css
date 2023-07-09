@@ -58,6 +58,7 @@
     border: solid 1px #fff;
     height: 30px;
     width: 260px;
+    color: whitesmoke;
 }
 
 .height-placeholder {
@@ -82,7 +83,18 @@
     height: 35px;
     width: 120px;
     position: relative;
-    right: 65px;
+    right: 5px;
+    bottom: -20px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #DD6023 -2.16%, #FFA236 97.03%);
+}
+
+.r-btn {
+    height: 35px;
+    width: 120px;
+    position: relative;
+    right: -15px;
     bottom: -20px;
     font-size: 14px;
     border: 1px solid transparent;
@@ -147,7 +159,7 @@
         left: 0;
         display: flex;
         flex-direction: row;
-        padding-bottom: 100px;
+        padding-bottom: 150px;
     }
 
     .bmi-bg-img {

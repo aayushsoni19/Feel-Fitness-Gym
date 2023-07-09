@@ -5,6 +5,10 @@ import { HashLink as NavLink } from 'react-router-hash-link'
 
 const Navbar = () => {
     const [hamburger, setHamburger] = useState(false);
+    const handleClick = (e) => {
+        e.preventDefault ()
+        setHamburger(!hamburger)
+    }
 
     return (
         <> 
@@ -29,7 +33,7 @@ const Navbar = () => {
             <div className="nav-line"></div>
 
             <div className="hamburger-menu">
-                <a href="" onClick={() => setHamburger(!hamburger)}>
+                <a href="" onClick={handleClick}>
                     <GiHamburgerMenu className="hamburger"/>
                 </a>
             </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from 'react-icons/bs'
 import "./Testimonials.css"
+import ratings from "../../assets/Ratings.png"
 
 const Testimonials = ({ data }) => {
     const [slide, setSlide] = useState(0);
@@ -33,7 +34,7 @@ const Testimonials = ({ data }) => {
                                                 <span key={idx} className={ slide === idx ? "name" : "name slide-hidden" }>{item.name}</span>
                                                 <span key={idx} className={ slide === idx ? "occupation" : "occupation slide-hidden"}>{item.occupation}</span>
                                                 <p key={idx} className={ slide === idx ? "text" : "text slide-hidden"}>{item.review}</p>
-                                                <img src="src/assets/Ratings.png" alt="ratings" key={idx} className={ slide === idx ? "rating" : "rating slide-hidden"}/>
+                                                <img src={ratings} alt="ratings" key={idx} className={ slide === idx ? "rating" : "rating slide-hidden"}/>
                                             </div>
                                             <img src="" alt="" key={idx} className={ slide === idx ? "c-pic" : "c-pic slide-hidden"}/>
                                         </div>
