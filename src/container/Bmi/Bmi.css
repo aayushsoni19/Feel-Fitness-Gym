@@ -124,6 +124,12 @@
     }
 }
 
+@media only screen and (min-width: 1400px) {
+    #bmi {
+        left: 0;
+    }
+}
+
 @media only screen and (min-width: 1850px) {
     #bmi {
         width: 100%;

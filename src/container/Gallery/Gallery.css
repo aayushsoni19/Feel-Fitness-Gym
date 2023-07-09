@@ -55,6 +55,12 @@
     }
 }
 
+@media only screen and (min-width: 1400px) {
+    #gallery {
+        left: 0;
+    }
+}
+
 @media only screen and (min-width: 1850px) {
     #gallery {
         left: 0;

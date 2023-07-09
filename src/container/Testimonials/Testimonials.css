@@ -152,6 +152,12 @@
     }
 }
 
+@media only screen and (min-width: 1400px) {
+    #testimonials {
+        left: 0;
+    }
+}
+
 @media only screen and (min-width: 1850px) {
     #testimonials {
         top: 2150px;

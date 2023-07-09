@@ -134,7 +134,7 @@
     }
 }
 
-/* Large tablets and small desktops CSS */
+
 
 @media only screen and (min-width: 992px) {
     #landingpage {
@@ -203,7 +203,11 @@
     }
 }
 
-/* Large desktop CSS */
+@media only screen and (min-width: 1400px) {
+    .sm-hero {
+        right: -80px;
+    }
+}
 
 @media only screen and (min-width: 1850px) {
     #landingpage {
