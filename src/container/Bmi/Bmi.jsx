@@ -11,7 +11,7 @@ const Bmi = () => {
     const handleCalculations = (e) => {
         e.preventDefault()
 
-        if (weight === "0" || height === "0") {
+        if (weight === "0" || height === "0" || weight === "" || height === "") {
             console.log("Invalid");
             alert("Please enter valid values")
         }

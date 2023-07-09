@@ -196,6 +196,12 @@ h1 {
     }
 }
 
+@media only screen and (min-width: 1365px) {
+    #aboutus {
+        left: 0;
+    }
+}
+
 @media only screen and (min-width: 1400px) {
     #aboutus {
         left: 0;

@@ -73,6 +73,12 @@
     }
 }
 
+@media only screen and (min-width: 1365px) {
+    #ourprograms {
+        left: 0;
+    }
+}
+
 @media only screen and (min-width: 1400px) {
     #ourprograms {
         left: 0;

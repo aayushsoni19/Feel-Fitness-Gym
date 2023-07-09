@@ -203,9 +203,21 @@
     }
 }
 
+@media only screen and (min-width: 1365px) {
+    .sm-hero {
+        right: -40px;
+    }
+}
+
 @media only screen and (min-width: 1400px) {
     .sm-hero {
         right: -80px;
+    }
+}
+
+@media only screen and (min-width: 1639px) and (min-height: 2359px) {
+    #landingpage {
+        right: -100px;
     }
 }
 
