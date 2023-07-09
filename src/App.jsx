@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Link, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { slides } from './data/carousel.json'
 import { reviews } from './data/reviews.json'
 import './App.css'
