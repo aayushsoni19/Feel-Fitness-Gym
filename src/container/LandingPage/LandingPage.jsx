@@ -2,7 +2,7 @@ import React from 'react'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
-import Navbar from '../../components/Navbar/navbar'
+import Navbar from '../../components/Navbar/Navbar'
 library.add(faYoutube)
 import "./LandingPage.css"
 
