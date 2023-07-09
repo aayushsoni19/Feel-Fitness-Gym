@@ -14,7 +14,7 @@ const LandingPage = () => {
 
                 <img className="desktop" src="https://live.staticflickr.com/65535/53033914353_e4a3318463.jpg" alt="Background Image" />
 
-                <img src="src/assets/canvas.svg" alt="Text Background" className="sm-hero" />
+                <img src="src/assets/canvas.png" alt="Text Background" className="sm-hero" />
 
                 <Navbar />
                 
