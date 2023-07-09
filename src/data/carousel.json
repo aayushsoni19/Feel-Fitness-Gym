@@ -1,15 +1,15 @@
 {
     "slides": [
         {
-            "src": "src/assets/bg-home-mobile.jpeg",
+            "src": "https://live.staticflickr.com/65535/53032855192_3e47654a56.jpg",
             "alt": "Image 1"
         },
         {
-            "src": "src/assets/bg-home.png",
+            "src": "https://live.staticflickr.com/65535/53033914413_b2855240d9.jpg",
             "alt": "Image 2"
         },
         {
-            "src": "src/assets/bmi-bg.png",
+            "src": "https://live.staticflickr.com/65535/53033434316_666e81aea7_w.jpg",
             "alt": "Image 3"
         }
     ]

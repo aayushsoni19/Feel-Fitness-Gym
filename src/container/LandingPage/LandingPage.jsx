@@ -10,9 +10,9 @@ const LandingPage = () => {
     return (
         <>
             <div id="landingpage">
-                <img className="mobile" src="src/assets/bg-home-mobile.jpeg" alt="Background Image" />
+                <img className="mobile" src="https://live.staticflickr.com/65535/53032855087_ab0efe8551_w.jpg" alt="Background Image" />
 
-                <img className="desktop" src="src/assets/bg-home.png" alt="Background Image" />
+                <img className="desktop" src="https://live.staticflickr.com/65535/53033914353_e4a3318463.jpg" alt="Background Image" />
 
                 <img src="src/assets/canvas.svg" alt="Text Background" className="sm-hero" />
 

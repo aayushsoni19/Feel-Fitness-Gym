@@ -33,7 +33,7 @@ const Testimonials = ({ data }) => {
                                                 <span key={idx} className={ slide === idx ? "name" : "name slide-hidden" }>{item.name}</span>
                                                 <span key={idx} className={ slide === idx ? "occupation" : "occupation slide-hidden"}>{item.occupation}</span>
                                                 <p key={idx} className={ slide === idx ? "text" : "text slide-hidden"}>{item.review}</p>
-                                                <img src="src/assets/Ratings.png" alt="ratings" key={idx} className={ slide === idx ? "rating" : "rating slide-hidden"}/>
+                                                <img src="https://live.staticflickr.com/65535/53032854962_27bee8ea4f_q.jpg" alt="ratings" key={idx} className={ slide === idx ? "rating" : "rating slide-hidden"}/>
                                             </div>
                                             <img src="" alt="" key={idx} className={ slide === idx ? "c-pic" : "c-pic slide-hidden"}/>
                                         </div>

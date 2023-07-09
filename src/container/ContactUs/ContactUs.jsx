@@ -6,7 +6,7 @@ const ContactUs = () => {
     return (
         <>
             <div id="contactus">
-                <img src="src/assets/contact-bg.jpg" alt="Background Image" className="contact-bg" />
+                <img src="https://live.staticflickr.com/65535/53033914508_cebb5aed9d_b.jpg" alt="Background Image" className="contact-bg" />
                 <div className="c-desc">
                     <h3>Call Us Now</h3>
                     <h1>+91 9909912369</h1>

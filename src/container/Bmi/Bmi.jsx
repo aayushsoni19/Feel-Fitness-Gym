@@ -63,7 +63,7 @@ const Bmi = () => {
                     </div>
                 </div>
                 <div className="bmi-img">
-                    <img className="bmi-bg-img" src="src/assets/bmi-bg.png" alt="" />
+                    <img className="bmi-bg-img" src="https://live.staticflickr.com/65535/53033830010_780166768e.jpg" alt="" />
                 </div>
             </div>
         </>
