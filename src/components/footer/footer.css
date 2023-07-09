@@ -1,0 +1,147 @@
+#footer {
+    background-color: #1A1B20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logo > img {
+    width: 150px;
+    height: auto;
+}
+
+.tagline {
+    width: 170px;
+    padding: 20px 0;
+    color: #DE5353;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.footer-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-desc > h2 {
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.address, .phone-no, .mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.address > img, .phone-no > img, .mail > img {
+    height: auto;
+    width: 15px;
+}
+
+.address > span, .phone-no > span, .mail > span {
+    font-size: 10px;
+    width: 165px;
+    text-align: justify;
+    padding-left: 25px;
+}
+
+.copyright {
+    font-size: 10px;
+    padding-bottom: 20px;
+    color: #606060;
+}
+
+@media only screen and (min-width: 992px) {
+    #footer {
+        width: 100%;
+        position: absolute;
+        top: 4375px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+    }
+
+    .logo {
+        padding: 0 175px;
+        flex-direction: column;
+    }
+
+    .logo > img {
+        width: 250px;
+    }
+
+    .tagline {
+        width: 270px;
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .footer-desc {
+        padding: 0 175px;
+    }
+
+    .footer-desc > h2 {
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+
+    .address > img, .phone-no > img, .mail > img {
+        width: 20px;
+    }
+
+    .address > span, .phone-no > span, .mail > span {
+        font-size: 16px;
+        width: 225px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1850px) {
+    #footer {
+        left: 0;
+        top: 6045px;
+    }
+
+    .logo {
+        padding: 0 320px;
+    }
+
+    .logo > img {
+        width: 350px;
+    }
+
+    .tagline {
+        width: 370px;
+        font-size: 32px;
+    }
+
+    .footer-desc {
+        padding: 0 320px;
+    }
+}
